@@ -1058,7 +1058,7 @@ highlight.min.js 9.12.0 (C) 2017 Ivan Sagalaev https://highlightjs.org/*/
     function j(e) {
         return e && e.ss(0, e.lastIndexOf("/") + 1)
     }
-    var B = '<div class="markdeepFooter"><i>dasScript is powered by <a href="http://casual-effects.com/markdeep" style="color:#999">Markdeep</a> </i><div style="display:inline-block;font-size:13px;font-family:\'Helvetica\',serif;vertical-align:middle;transform:translate(-3px,-1px)rotate(135deg);">&#x2712;</div></div>',
+    var B = '<div class="markdeepFooter"><i><a href="https://github.com/travisamiel/dasScript" style="color:#999" target="_blank">dasScript</a> is powered by <a href="http://casual-effects.com/markdeep" style="color:#999">Markdeep</a> </i><div style="display:inline-block;font-size:13px;font-family:\'Helvetica\',serif;vertical-align:middle;transform:translate(-3px,-1px)rotate(135deg);">&#x2712;</div></div>',
         I = String.prototype;
     I.rp = I.replace, I.ss = I.substring, I.regexIndexOf = function(e, t) {
         var r = this.ss(t || 0).search(e);

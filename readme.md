@@ -19,10 +19,11 @@ or a reconfiguration of [Markdeep](https://casual-effects.com/markdeep) for maki
 This started with an inquiry into how playwrights should document their *plays*
 And wondering why plays have looked the same for awhile.
 For example, *The Importance of Being Earnest* [as published in a book](https://archive.org/details/in.ernet.dli.2015.553513/page/n19):
-!(/example/example_media/Importance-book.png)
+![](./example/example_media/Importance-book.png)
 
 Or as you can see it [on Project Gutenberg](https://www.gutenberg.org/files/844/844-h/844-h.htm):
-!(/example/example_media/Importance-gutenberg.png)
+
+![](./example/example_media/Importance-gutenberg.png)
 
 # Project Inquiry
 Why is it that dialogue/text is the most valued element of a script?
