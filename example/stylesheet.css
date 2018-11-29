@@ -15,11 +15,20 @@ h1 {
 }
 
 .md blockquote {
-  color: red;
+  color: #000;
 }
 
 em.asterisk {
   text-transform: uppercase;
   font-weight: bold;
   font-style: normal;
+}
+
+.md .blinking{
+	animation:blinkingText 3s infinite;
+}
+@keyframes blinkingText{
+	0%{		color: #000;	}
+	50%{	color: transparent;	}
+	100%{	color: #000;	}
 }

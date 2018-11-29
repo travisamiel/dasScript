@@ -15,6 +15,25 @@ or a reconfiguration of [Markdeep](https://casual-effects.com/markdeep) for maki
 ```
 * Then in the middle, add your work
 
+# Formatting options
+(subject to change)
+~~~
+You can put stage direction type stuff in these squiglies
+~~~
+
+*Character name type things go in between asterisks*
+
+Embed media as following
+```
+![caption can go here](path of the file e.g. the sound clip in the example script is put in example_media/musicmusicmusic.mp3)
+```
+For spoken word, put two greater than signs so it is as follows:
+```
+>
+> Text to be spoken
+```
+And you can make diagrams!
+
 # Background
 This started with an inquiry into how playwrights should document their *plays*
 And wondering why plays have looked the same for awhile.
