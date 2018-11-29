@@ -1,0 +1,25 @@
+.md h1:before {
+  content: none;
+}
+
+.md h2:before {
+  content: none;
+}
+
+h1 {
+  color: black;
+}
+
+#col {
+  column-count: 2;
+}
+
+.md blockquote {
+  color: red;
+}
+
+em.asterisk {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+}
