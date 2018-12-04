@@ -1,0 +1,30 @@
+.md h1:before {
+  content: none;
+}
+
+.md h2:before {
+  content: none;
+}
+
+h1 {
+  color: black;
+}
+
+.md blockquote {
+  color: #000;
+}
+
+em.asterisk {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.md .blinking{
+	animation:blinkingText 3s infinite;
+}
+@keyframes blinkingText{
+	0%{		color: #000;	}
+	50%{	color: transparent;	}
+	100%{	color: #000;	}
+}
