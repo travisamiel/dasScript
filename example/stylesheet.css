@@ -6,8 +6,9 @@
   content: none;
 }
 
-h1 {
+.md h1 {
   color: black;
+  font-size: 2.5vw;
 }
 
 #col {
@@ -16,12 +17,14 @@ h1 {
 
 .md blockquote {
   color: #000;
+  font-size: 1.3vw;
 }
 
 em.asterisk {
   text-transform: uppercase;
   font-weight: bold;
   font-style: normal;
+  font-size: 1.5vw;
 }
 
 .md .blinking{

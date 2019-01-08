@@ -15,7 +15,7 @@ or a reconfiguration of [Markdeep](https://casual-effects.com/markdeep) for maki
 ```
 * Then in the middle, add your work
 
-# Formatting options
+# Formatting; or the symbols to manifest different elements
 (subject to change)
 ~~~
 You can put stage direction type stuff in these squiglies
@@ -50,4 +50,8 @@ There is much confusion in plays about **who** wrote the stage directions—the 
 
 My thinking is that it is intuitive to express oneself using sound, gifs, YouTube clips, text-animation effects, so why cant scripts accommodate?
 
-And further, how do we share authorship of works created in a collaborative, horizontally structured ensemble? How do we allow each new production of a script add their contributions and discoveries. Whether that is alterations or dramaturgical research?
+And further, how do we share authorship of works created in a collaborative, horizontally structured ensemble? How do we allow each new production of a script add their contributions and discoveries. Whether that is alterations, dramaturgical research, rehearsal footage, choreography, projection/scenic design, etc?
+
+# Where this is going
+Right now, I'm basing this project in [Markdown](https://en.wikipedia.org/wiki/Markdown), taking certain formatting and with the power of [Markdeep](https://casual-effects.com/markdeep/) rendering it as an HTML document. It's a working model for easily creating web-page scripts, demonstrate that this concept of multimedia-accommodating, open-source documentation is an ideal, feasible, and form-moving-forward mechanism.
+Next step would be to create an online script-making software for maximum intuitive creation & collaboration.
