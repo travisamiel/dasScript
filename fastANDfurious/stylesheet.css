@@ -1,17 +1,38 @@
+@media screen {
+body {
+  background: #000;
+  color: #ccc;
+  font-family: Arial, Helvetica, "sans serif";
+  text-align: left;
+}
+}
+
+.md div.title {
+  color: white;
+  font-family: Teko, Arial;
+  font-size: 200%;
+}
+
+.md h2 {
+  color: white;
+}
+
 .md h1:before {
   content: none;
+  color: white;
 }
 
 .md h2:before {
   content: none;
+  color: white;
 }
 
 h1 {
-  color: black;
+  color: white;
 }
 
 .md blockquote {
-  color: #000;
+  color: white;
 }
 
 em.asterisk {
@@ -24,7 +45,7 @@ em.asterisk {
 	animation:blinkingText 3s infinite;
 }
 @keyframes blinkingText{
-	0%{		color: #000;	}
+	0%{		color: white;	}
 	50%{	color: transparent;	}
-	100%{	color: #000;	}
+	100%{	color: white;	}
 }

@@ -9,6 +9,20 @@
 
 Performed at the Tank for their Fast & Furious series. Each responding to the most recent week of events.
 
+# February 2019: Bitcoin Ballet
+## setup
+* audio clip
+* bizarre spotlight, or cold, low wash
+* mourning costume
+
+>
+> Last week, Quadriga CX filed court documents saying that they are unable to access over $145 million in various crypto currencies because their recently deceased founder was the only one with the passwords.
+> Learning from their mistakes, I have prepared for my death by transcribing my bitcoin wallet key into a song. In the event of my death, please decrypt this performance, liquidate my 0.00635 in Bitcoin, and donate it to The Tank. [^feb19-post]
+
+![recording by jake smerechniak, gif by google photos](fAf-media/bitcoinballet.gif)
+
+![](fAf-media/passw0rd.ogg)
+
 # January 2019: L train
 ## setup
 * hand microphone
@@ -37,6 +51,15 @@ Performed at the Tank for their Fast & Furious series. Each responding to the mo
 ## when i need a break
 >
 > I am an extremely optimistic person, like if Pee-Wee Herman and Kenneth the Page and Buddy the Elf Janet and Spongebob Squarepants all came together into one person...that's me. I trusted the system that told me it needed to be shut down. Because at the end of the day I always get home.
+
+## Sonic Pi score
+~~~
+use_synth :cnoise
+loop do
+  play choose(chord(:F, :minor7)), release: 0.5, cutoff: rrand(60, 75)
+  sleep 0.25
+end
+~~~
 
 # December 2018: enough banana
 ## setup
@@ -75,6 +98,8 @@ Once banana finishes path
 
 # Footnotes
 [^dec18-post]: I didn't end up saying the bit about AIDs because I felt (feel?) uncomfortable about it. I started by talking about this costume I had made: a piece of muslin with nipples drawn on and yellow sweat thread sewn on. There were 15 people in the audience so I reminded everyone to take one fifteenth of banana.
+
+[^feb19-post]: I'm told that a *song* has to contain lyrics. But I'm also told that it doesn't. Please let me know what you know.
 
 <!-- Don't touch this thing below -->
 <script src="../markdeep.js?"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
